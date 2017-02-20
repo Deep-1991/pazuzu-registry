@@ -11,5 +11,6 @@ public class PazuzuAppLauncher {
 
     public static void main(final String[] args) {
         SpringApplication.run(PazuzuAppLauncher.class, args);
+        System.out.println("In dev env");
     }
 }
